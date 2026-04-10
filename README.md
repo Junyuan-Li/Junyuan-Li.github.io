@@ -1,6 +1,6 @@
-# Tongrui Zhang's Academic Homepage
+# Junyuan Li's Academic Homepage
 
-This repository contains my personal academic homepage for research in computer vision and deep learning.
+This repository contains my personal academic homepage for research in time series forecasting, machine learning, and data science.
 
 ## Overview
 
