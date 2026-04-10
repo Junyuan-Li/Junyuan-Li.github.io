@@ -401,7 +401,7 @@ body {
 .main-body details.is-open .details-body,
 .main-body details[open] .details-body {
     padding: 1rem 1.1rem 1.2rem;
-    max-height: 2000px;
+    max-height: none;
     opacity: 1;
 }
 
