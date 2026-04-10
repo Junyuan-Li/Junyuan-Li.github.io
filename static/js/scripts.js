@@ -188,7 +188,7 @@ window.addEventListener('DOMContentLoaded', event => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
-                const html = marked.parse(markdown);
+                const html = name === 'publications' ? markdown : marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
                 enhanceDetailsAnimations(document.getElementById(name + '-md'));
                 refreshScrollSpy();

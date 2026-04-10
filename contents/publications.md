@@ -1,10 +1,8 @@
 <details>
 <summary>Click to view research outputs</summary>
 <div class="details-body">
-
 <div class="publication-item">
   <div class="publication-figure" data-badge="IP&M">
-    <!-- <div class="publication-figure-inner">Paper Figure Placeholder<br>Embed the actual paper image here</div> -->
       <img src="static/assets/img/research/paper1.svg" alt="Multi-Source Mixed-Frequency Interval-Valued Crude Oil Price Forecasting">
   </div>
   <div class="publication-content">
@@ -31,12 +29,10 @@
             <li>Validated model effectiveness on WTI and Brent crude oil datasets, achieving stable performance improvement over various SOTA models.</li>
           </ul>
         </div>
-      </div>
-</details>
+      </details>
     </div>
   </div>
 </div>
-
 <div class="publication-item">
   <div class="publication-figure" data-badge="Systems">
     <img src="static/assets/img/research/paper2.svg" alt="Multi-Step Carbon Price Forecasting System">
@@ -62,12 +58,10 @@
             <li>Designed Residual Dynamic Correction Network (RDCN) to enhance multi-step prediction stability and long-term error suppression capability.</li>
           </ul>
         </div>
-      </div>
-</details>
+      </details>
     </div>
   </div>
 </div>
-
 <div class="publication-item">
   <div class="publication-figure" data-badge="ES">
     <img src="static/assets/img/research/paper3.svg" alt="Green Metal Market Price Forecasting">
@@ -94,12 +88,10 @@
             <li>Introduced multi-objective optimization strategy for joint learning of ensemble weights, achieving balanced optimization of prediction accuracy and stability.</li>
           </ul>
         </div>
-      </div>
-</details>
+      </details>
     </div>
   </div>
 </div>
-
 <div class="publication-item">
   <div class="publication-figure publication-figure--centered" data-badge="National Project">
     <img src="static/assets/img/research/paper4.svg" alt="Yellow River Basin Spatial-Temporal Data Mining">
@@ -125,11 +117,10 @@
             <li>Abstracted hydrological observation stations as spatial-temporal graph structures with upstream-downstream dependencies, combined sequence completion and continuous modeling methods to construct multi-node basin dynamic evolution baseline model.</li>
           </ul>
         </div>
-      </div>
-</details>
+      </details>
     </div>
   </div>
-
+</div>
 <div class="publication-item">
   <div class="publication-figure publication-figure--centered" data-badge="Open Source Project">
     <img src="static/assets/img/research/paper5.svg" alt="LLM Agent-Based Wind Power Forecasting and Interpretable Analysis System">
@@ -155,11 +146,9 @@
             <li><strong>End-to-End System:</strong> Developed a closed-loop intelligent system blending deep time-series modeling with LLM reasoning capabilities, bridging the gap from numerical prediction to natural language explanations.</li>
           </ul>
         </div>
-      </div>
-</details>
+      </details>
     </div>
   </div>
-</div>
 </div>
 </div>
 </details>
