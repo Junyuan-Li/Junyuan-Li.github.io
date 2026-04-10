@@ -31,7 +31,8 @@
             <li>Validated model effectiveness on WTI and Brent crude oil datasets, achieving stable performance improvement over various SOTA models.</li>
           </ul>
         </div>
-      </details>
+      </div>
+</details>
     </div>
   </div>
 </div>
@@ -61,7 +62,8 @@
             <li>Designed Residual Dynamic Correction Network (RDCN) to enhance multi-step prediction stability and long-term error suppression capability.</li>
           </ul>
         </div>
-      </details>
+      </div>
+</details>
     </div>
   </div>
 </div>
@@ -92,7 +94,8 @@
             <li>Introduced multi-objective optimization strategy for joint learning of ensemble weights, achieving balanced optimization of prediction accuracy and stability.</li>
           </ul>
         </div>
-      </details>
+      </div>
+</details>
     </div>
   </div>
 </div>
@@ -122,10 +125,43 @@
             <li>Abstracted hydrological observation stations as spatial-temporal graph structures with upstream-downstream dependencies, combined sequence completion and continuous modeling methods to construct multi-node basin dynamic evolution baseline model.</li>
           </ul>
         </div>
-      </details>
+      </div>
+</details>
+    </div>
+  </div>
+
+<div class="publication-item">
+  <div class="publication-figure publication-figure--centered" data-badge="Open Source Project">
+    <img src="static/assets/img/research/paper5.svg" alt="LLM Agent-Based Wind Power Forecasting and Interpretable Analysis System">
+  </div>
+  <div class="publication-content">
+    <div class="publication-title">
+      <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">LLM Agent-Based Wind Power Forecasting and Interpretable Analysis System</a>
+    </div>
+    <div class="publication-authors"><strong>Junyuan Li</strong> (Project Lead)</div>
+    <div class="publication-meta">
+      <span>Duration: 2026.01 ~ 2026.04</span>
+      <span>Links: <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">GitHub Repository</a></span>
+    </div>
+    <div class="publication-links">
+      <details class="publication-abstract">
+        <summary>Project Details</summary>
+        <div class="details-body">
+          <ul class="publication-notes">
+            <li><strong>Model Architecture:</strong> Constructed a forecasting model based on multivariate LSTM architecture, designing multi-scale feature engineering and dual-scale modeling mechanisms to enhance robustness under extreme weather conditions.</li>
+            <li><strong>RAG Integration:</strong> Built a local knowledge retrieval system based on Text Embeddings and FAISS, introducing a hierarchical RAG mechanism to integrate meteorological mechanisms and historical state information into the model inference process.</li>
+            <li><strong>Multi-Agent Framework:</strong> Designed a Planner-Executor-Writer multi-agent collaborative framework, enabling dynamic scheduling and chain reasoning between the forecasting model and the data retrieval modules.</li>
+            <li><strong>LLM Fine-tuning & Deployment:</strong> Performed lightweight fine-tuning (QLoRA) and local deployment of Qwen2.5-7B using Colab GPUs, and built CLI and Web visualization systems for interactive forecasting and natural language interpretable outputs.</li>
+            <li><strong>End-to-End System:</strong> Developed a closed-loop intelligent system blending deep time-series modeling with LLM reasoning capabilities, bridging the gap from numerical prediction to natural language explanations.</li>
+          </ul>
+        </div>
+      </div>
+</details>
     </div>
   </div>
 </div>
-
+</div>
 </div>
 </details>
+
+
