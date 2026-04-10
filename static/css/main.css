@@ -445,9 +445,9 @@ body {
     height: 100%;
     display: block;
     border-radius: 16px;
-    object-fit: contain;
-    object-position: left top;
-    background: #fff;
+    object-fit: contain; /* 改为 contain 已适配图片大小 */
+    object-position: center center; /* 图片居中 */
+    background: transparent; /* 去除白色背景，如果需要的话可以取消注释：#fff */
 }
 
 .publication-figure--centered img,

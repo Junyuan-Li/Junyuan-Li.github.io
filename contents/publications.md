@@ -99,7 +99,7 @@
 
 <div class="publication-item">
   <div class="publication-figure publication-figure--centered" data-badge="National Project">
-    <img src="static/assets/img/research/paper1.svg" alt="Yellow River Basin Spatial-Temporal Data Mining">
+    <img src="static/assets/img/research/paper4.svg" alt="Yellow River Basin Spatial-Temporal Data Mining">
   </div>
   <div class="publication-content">
     <div class="publication-title">
