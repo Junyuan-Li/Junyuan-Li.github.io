@@ -11,7 +11,7 @@ Additionally, I have achieved **10 national-level awards**, **15+ provincial-lev
 **Shandong University of Finance and Economics** | Big Data Management and Applications
 *2023.09 - 2027.06*
 
-- **Academic Standing:** GPA Rank 1/98 | Comprehensive Performance Rank 1/98
+- **Academic Standing:** GPA: 4.18/5.00 | GPA Rank: 1/98 | Comprehensive Performance Rank: 1/98
 - **Language Proficiency:** CET-6: 550 | CET-4: 584
 - **Scholarships:** National Scholarship (2025) | School-level Special Scholarship (3 consecutive years)
 - **Core Courses:** Data Structures & Algorithms (97) | Calculus (99) | Linear Algebra (95) | Big Data Analytics (97) | Management Statistics (97) | Python Big Data Collection & Visualization (97) | Probability & Statistics (92) | Database Principles & Applications (92) | Machine Learning | Operations Research
