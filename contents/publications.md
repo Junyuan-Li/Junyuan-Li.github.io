@@ -1,38 +1,47 @@
 <details>
 <summary>Click to view research outputs</summary>
 <div class="details-body">
+
+<!-- Research Experience -->
+<div class="section-header">
+  <h2> Research Experience</h2>
+</div>
+
+<div class="research-section">
+<h3 class="subsection-title"> Publications & Academic Projects</h3>
+
 <div class="publication-item">
   <div class="publication-figure" data-badge="IP&M">
-      <img src="static/assets/img/research/paper1.svg" alt="Multi-Source Mixed-Frequency Interval-Valued Crude Oil Price Forecasting">
+    <img src="static/assets/img/research/paper1.svg" alt="Multi-Source Mixed-Frequency Interval-Valued Crude Oil Price Forecasting">
   </div>
   <div class="publication-content">
     <div class="publication-title">
       <a href="#">What Can Be Learned from Multi-Source Mixed-Frequency Interval-Valued Information? Evidence from a Context-Aware Dynamic Ensemble Interval-Valued Crude Oil Price Forecasting System</a>
     </div>
-    <div class="publication-authors">Author 1, <strong>Junyuan Li</strong>, Author 3, et al.</div>
+    <div class="publication-authors">Second Author (Advisor as First Author)</div>
     <div class="publication-meta">
-      <span>Journal: Information Processing & Management (IP&M)</span>
-      <span>Level: SCI, JCR Q1</span>
+      <span>Journal: Information Processing & Management (IP&M, CCF-B)</span>
       <span>Status: Under Revision (1st Round)</span>
       <span>Duration: 2025.03 ~ 2025.11</span>
     </div>
     <div class="publication-links">
       <a href="#">PDF</a>
       <details class="publication-abstract">
-        <summary>Abstract</summary>
+        <summary>Research Details</summary>
         <div class="details-body">
+          <p><strong>Research Problem:</strong> Existing time-series models struggle to effectively fuse cross-scale dependencies in multi-source mixed-frequency data, and static ensemble strategies are sensitive to data distribution drift.</p>
           <ul class="publication-notes">
-            <li>Developed a multi-source mixed-frequency interval-valued forecasting framework for complex non-stationary time series, focusing on cross-temporal scale data fusion and uncertainty modeling.</li>
-            <li>Designed Multi-source Mixed-frequency Modeling (M-MIDAS) to enable interactive downsampling and collaborative representation learning of multi-source heterogeneous data, supporting cross-scale information fusion in shared space.</li>
-            <li>Constructed Multi-Stage Feature Engineering (MSFE) module integrating multiple feature selection and dimensionality reduction strategies for robust representation and information compression of high-dimensional time series.</li>
-            <li>Proposed context-aware dual-attention Transformer dynamic ensemble mechanism for adaptive weighted fusion and interpretability of multiple models.</li>
-            <li>Validated model effectiveness on WTI and Brent crude oil datasets, achieving stable performance improvement over various SOTA models.</li>
+            <li><strong>Multi-Stage Feature Engineering:</strong> Designed a feature selection and compression module integrating 11 ML algorithms, performing low-rank compression to alleviate over-parameterization.</li>
+            <li><strong>Multi-Source Mixed-Frequency Modeling (M-MIDAS):</strong> Proposed a heterogeneous feature processing method applying parameterized polynomial lag mappings to different frequency sequences, constructing low-dimensional vectors that fuse multi-source information at each time step, achieving structured cross-scale fusion through learnable aggregation layers.</li>
+            <li><strong>Dual-Attention Dynamic Ensemble:</strong> Constructed a dynamic ensemble module with parallel variable and temporal attention branches at the Transformer encoder end, enabling adaptive ensemble weights that automatically enhance robust model contributions in high-variance intervals with interpretability.</li>
+            <li><strong>Experimental Results:</strong> Achieved approximately 23.6% performance improvement over mainstream SOTA models on WTI and Brent datasets.</li>
           </ul>
         </div>
       </details>
     </div>
   </div>
 </div>
+
 <div class="publication-item">
   <div class="publication-figure" data-badge="Systems">
     <img src="static/assets/img/research/paper2.svg" alt="Multi-Step Carbon Price Forecasting System">
@@ -41,27 +50,29 @@
     <div class="publication-title">
       <a href="#">A Multi-Step Interval-Valued Carbon Price Forecasting System Based on Multi-Source Mixed-Frequency Information Modeling</a>
     </div>
-    <div class="publication-authors"><strong>Junyuan Li</strong></div>
+    <div class="publication-authors">First Author (Advisor as Corresponding Author)</div>
     <div class="publication-meta">
-      <span>Journal: Systems</span>
+      <span>Journal: Systems (SCI)</span>
       <span>Status: Under Revision (1st Round)</span>
       <span>Duration: 2025.11 ~ 2026.03</span>
     </div>
     <div class="publication-links">
       <a href="#">PDF</a>
       <details class="publication-abstract">
-        <summary>Abstract</summary>
+        <summary>Research Details</summary>
         <div class="details-body">
+          <p><strong>Research Problem:</strong> Multi-step time-series forecasting suffers from error accumulation and long-term dependency decay, while redundant variables in high-dimensional feature spaces exacerbate performance degradation in non-stationary scenarios.</p>
           <ul class="publication-notes">
-            <li>Improved Multi-Objective Reinforcement Learning (MORL) mechanism for adaptive high-dimensional feature screening and importance optimization, implementing a data-driven dynamic feature selection mechanism.</li>
-            <li>Proposed multi-source mixed-frequency representation learning module to achieve alignment and fusion modeling of heterogeneous high-frequency time series, improving cross-temporal information utilization efficiency.</li>
-            <li>Designed Residual Dynamic Correction Network (RDCN) to enhance multi-step prediction stability and long-term error suppression capability.</li>
+            <li><strong>Dynamic Feature Selector:</strong> Proposed a multi-objective reinforcement learning-based dynamic feature selector that learns sparse filtering strategies using prediction error and feature set cardinality as joint reward signals.</li>
+            <li><strong>Frequency-Aware Mixed-Frequency Representation:</strong> Constructed a frequency-aware mixed-frequency representation frontend that uses M-MIDAS to fuse and downsample high-dimensional heterogeneous data, outputting temporal representations for downstream deep learning model training.</li>
+            <li><strong>Residual Dynamic Correction:</strong> Designed a residual-driven dynamic correction network that parallels a learnable residual compensation branch with the backbone predictor to suppress error propagation in multi-step inference.</li>
           </ul>
         </div>
       </details>
     </div>
   </div>
 </div>
+
 <div class="publication-item">
   <div class="publication-figure" data-badge="ES">
     <img src="static/assets/img/research/paper3.svg" alt="Green Metal Market Price Forecasting">
@@ -70,86 +81,84 @@
     <div class="publication-title">
       <a href="#">A New Multi-Objective Ensemble System for Geoscience Resource Price Forecasting: Evidence from the Green Metal Market</a>
     </div>
-    <div class="publication-authors">Author 1, Author 2, <strong>Junyuan Li</strong>, et al.</div>
+    <div class="publication-authors">Third Author</div>
     <div class="publication-meta">
-      <span>Journal: Expert Systems (ES)</span>
-      <span>Level: SCI, JCR Q2</span>
+      <span>Journal: Expert Systems (CCF-C)</span>
       <span>Status: Under Revision (2nd Round)</span>
-      <span>Duration: 2025.02 ~ 2025.10</span>
+      <span>Duration: 2024.12 ~ 2025.03</span>
     </div>
     <div class="publication-links">
       <a href="#">PDF</a>
       <details class="publication-abstract">
-        <summary>Abstract</summary>
+        <summary>Research Details</summary>
         <div class="details-body">
+          <p>The system adopts a four-stage framework of sequence decomposition, adaptive predictor selection, multi-objective ensemble optimization, and final prediction generation.</p>
           <ul class="publication-notes">
-            <li>Adopted subsequence decomposition modeling strategy to decompose complex time series into learnable sub-processes, improving model's capability to express non-stationary structures.</li>
-            <li>Designed adaptive model selection mechanism for dynamic screening and collaborative combination of multiple base predictors, enhancing ensemble robustness.</li>
-            <li>Introduced multi-objective optimization strategy for joint learning of ensemble weights, achieving balanced optimization of prediction accuracy and stability.</li>
+            <li><strong>Personal Contribution:</strong> Responsible for the multi-objective ensemble optimization module, formalizing ensemble weight solving as a bi-objective optimization problem of accuracy and variance, using MOAOA to search for Pareto-optimal weight vectors, introducing adaptive grids to maintain frontier scale, and automatically selecting final weights based on minimum variance criteria.</li>
+            <li><strong>Experimental Results:</strong> Effectively reduced overall performance metrics across three metal price datasets.</li>
           </ul>
         </div>
       </details>
     </div>
   </div>
 </div>
+
 <div class="publication-item">
-  <div class="publication-figure publication-figure--centered" data-badge="National Project">
-    <img src="static/assets/img/research/paper4.svg" alt="Yellow River Basin Spatial-Temporal Data Mining">
+  <div class="publication-figure" data-badge="NSFC">
+    <img src="static/assets/img/research/paper6.svg" alt="Wind Power Forecasting Research">
   </div>
   <div class="publication-content">
     <div class="publication-title">
-      <a href="#">Zhihe Data: Spatial-Temporal Data Mining and Baseline Modeling System for the Yellow River Basin Based on Multi-Source Sensor Networks</a>
+      <a href="#">Dynamic Adaptive Probabilistic Wind Power Forecasting Based on Mixed-Frequency Big Data</a>
     </div>
-    <div class="publication-authors"><strong>Junyuan Li</strong>, et al.</div>
+    <div class="publication-authors">Project Participant</div>
     <div class="publication-meta">
-      <span>Project Type: National College Student Innovation and Entrepreneurship Training Program</span>
-      <span>Level: National</span>
-      <span>Duration: 2024.11 ~ 2025.05</span>
-    </div>
-    <div class="publication-links">
-      <a href="#">Details</a>
-      <details class="publication-abstract">
-        <summary>Project Overview</summary>
-        <div class="details-body">
-          <ul class="publication-notes">
-            <li>Constructed multi-source sensor spatial-temporal data processing framework to achieve temporal and spatial alignment of heterogeneous data including hydrology, meteorology, and terrain, completing structured data construction.</li>
-            <li>Performed dimensionality reduction and denoising on high-dimensional heterogeneous features to extract core representations driving basin evolution.</li>
-            <li>Abstracted hydrological observation stations as spatial-temporal graph structures with upstream-downstream dependencies, combined sequence completion and continuous modeling methods to construct multi-node basin dynamic evolution baseline model.</li>
-          </ul>
-        </div>
-      </details>
-    </div>
-  </div>
-</div>
-<div class="publication-item">
-  <div class="publication-figure publication-figure--centered" data-badge="Open Source Project">
-    <img src="static/assets/img/research/paper5.svg" alt="LLM Agent-Based Wind Power Forecasting and Interpretable Analysis System">
-  </div>
-  <div class="publication-content">
-    <div class="publication-title">
-      <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">LLM Agent-Based Wind Power Forecasting and Interpretable Analysis System</a>
-    </div>
-    <div class="publication-authors"><strong>Junyuan Li</strong> (Project Lead)</div>
-    <div class="publication-meta">
-      <span>Duration: 2026.01 ~ 2026.04</span>
-      <span>Links: <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">GitHub Repository</a></span>
+      <span>Project Type: National Natural Science Foundation of China</span>
+      <span>Duration: 2024.01 ~ 2026.12</span>
     </div>
     <div class="publication-links">
       <details class="publication-abstract">
         <summary>Project Details</summary>
         <div class="details-body">
           <ul class="publication-notes">
-            <li><strong>Model Architecture:</strong> Constructed a forecasting model based on multivariate LSTM architecture, designing multi-scale feature engineering and dual-scale modeling mechanisms to enhance robustness under extreme weather conditions.</li>
-            <li><strong>RAG Integration:</strong> Built a local knowledge retrieval system based on Text Embeddings and FAISS, introducing a hierarchical RAG mechanism to integrate meteorological mechanisms and historical state information into the model inference process.</li>
-            <li><strong>Multi-Agent Framework:</strong> Designed a Planner-Executor-Writer multi-agent collaborative framework, enabling dynamic scheduling and chain reasoning between the forecasting model and the data retrieval modules.</li>
-            <li><strong>LLM Fine-tuning & Deployment:</strong> Performed lightweight fine-tuning (QLoRA) and local deployment of Qwen2.5-7B using Colab GPUs, and built CLI and Web visualization systems for interactive forecasting and natural language interpretable outputs.</li>
-            <li><strong>End-to-End System:</strong> Developed a closed-loop intelligent system blending deep time-series modeling with LLM reasoning capabilities, bridging the gap from numerical prediction to natural language explanations.</li>
+            <li><strong>Heterogeneous Data Fusion:</strong> Designed a fusion framework covering four types of heterogeneous data (historical, forecast, real-time, and geographic), completing structured expression of spatiotemporal alignment mechanisms and data flow architecture.</li>
+            <li><strong>Data Repair and Modeling:</strong> Completed multi-type anomaly identification based on physical rules and GMM, combined Graph Attention Networks with Generative Adversarial Networks (GAT + WGAN-GP) to achieve spatiotemporal dependency modeling and data repair.</li>
+            <li><strong>Feature Learning and Fusion:</strong> Constructed a mechanism using voting and multi-objective optimization for shallow feature screening, and hypergraph Transformer with TCN for deep spatiotemporal feature learning and multi-scale fusion.</li>
           </ul>
         </div>
       </details>
     </div>
   </div>
 </div>
+
+<div class="publication-item">
+  <div class="publication-figure publication-figure--centered" data-badge="Open Source">
+    <img src="static/assets/img/research/paper4.svg" alt="LLM Agent Time Series System">
+  </div>
+  <div class="publication-content">
+    <div class="publication-title">
+      <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">Interpretable Time-Series Forecasting System Integrating RAG and Multi-Agent Framework</a>
+    </div>
+    <div class="publication-authors">Independent Development</div>
+    <div class="publication-meta">
+      <span>Duration: 2025.12 ~ 2026.02</span>
+      <span>Code: <a href="https://github.com/Junyuan-Li/wind-power-llm-agent" target="_blank">GitHub Repository</a></span>
+    </div>
+    <div class="publication-links">
+      <details class="publication-abstract">
+        <summary>Project Details</summary>
+        <div class="details-body">
+          <ul class="publication-notes">
+            <li><strong>Hierarchical RAG Mechanism:</strong> Introduced a hierarchical RAG mechanism, built historical meteorological pattern vector indices based on Text Embedding and FAISS, retrieving similar case mechanism descriptions as contextual prompts to integrate into the reasoning process.</li>
+            <li><strong>Multi-Agent Collaboration:</strong> Designed a Planner-Executor-Writer multi-agent collaborative framework, decoupling task planning, prediction execution, and explanation generation to achieve chain-based collaboration.</li>
+            <li><strong>LLM Fine-tuning & Deployment:</strong> Performed parameter-efficient fine-tuning on Qwen2.5-7B using QLoRA and deployed locally, built CLI and Web visualization interfaces to achieve interactive prediction and natural language explanation outputs.</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+</div>
+
 </div>
 </details>
 
