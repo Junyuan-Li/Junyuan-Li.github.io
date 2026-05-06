@@ -120,10 +120,15 @@
       <details class="publication-abstract">
         <summary>Project Details</summary>
         <div class="details-body">
+          <p><strong>Project Overview:</strong> Designed a three-stage processing framework of anomaly detection-data repair-feature learning to achieve structured fusion and quality enhancement of multi-source heterogeneous spatiotemporal data.</p>
+          <p><strong>My Contributions:</strong></p>
           <ul class="publication-notes">
-            <li><strong>Heterogeneous Data Fusion:</strong> Designed a fusion framework covering four types of heterogeneous data (historical, forecast, real-time, and geographic), completing structured expression of spatiotemporal alignment mechanisms and data flow architecture.</li>
-            <li><strong>Data Repair and Modeling:</strong> Completed multi-type anomaly identification based on physical rules and GMM, combined Graph Attention Networks with Generative Adversarial Networks (GAT + WGAN-GP) to achieve spatiotemporal dependency modeling and data repair.</li>
-            <li><strong>Feature Learning and Fusion:</strong> Constructed a mechanism using voting and multi-objective optimization for shallow feature screening, and hypergraph Transformer with TCN for deep spatiotemporal feature learning and multi-scale fusion.</li>
+            <li><strong>Data Preprocessing:</strong> Assisted in completing data cleaning, alignment, and spatiotemporal matching for four types of heterogeneous data, ensuring input data quality.</li>
+            <li><strong>Anomaly Detection:</strong> Participated in data annotation and rule verification for the anomaly detection module, assisting in identifying multiple types of anomalous samples based on physical constraints and statistical methods.</li>
+            <li><strong>Experiment Management:</strong> Built Git experimental management repository to unify data versioning, script environments, and parameter configurations.</li>
+            <li><strong>Data Repair:</strong> Participated in discussions on data repair solutions combining graph structure modeling and generative models, assisting in completing missing data imputation experiments based on spatial correlations between stations.</li>
+            <li><strong>Feature Selection:</strong> Assisted in designing shallow feature screening modules, exploring the combination of voting mechanisms and multi-objective optimization in key variable selection.</li>
+            <li><strong>Deep Feature Learning:</strong> Participated in experiments on multi-scale fusion strategies for Transformer+TCN deep encoders, validating the impact of different fusion approaches on prediction accuracy.</li>
           </ul>
         </div>
       </details>
