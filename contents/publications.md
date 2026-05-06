@@ -120,15 +120,15 @@
       <details class="publication-abstract">
         <summary>Project Details</summary>
         <div class="details-body">
-          <p><strong>Project Overview:</strong> Designed a three-stage processing framework of anomaly detection-data repair-feature learning to achieve structured fusion and quality enhancement of multi-source heterogeneous spatiotemporal data.</p>
-          <p><strong>My Contributions:</strong></p>
+          <p><strong>Project Overview:</strong> Designed a three-stage framework of anomaly detection, data repair, and feature learning to achieve structured fusion and quality enhancement of multi-source heterogeneous spatiotemporal data.</p>
+          <p><strong>My Work:</strong></p>
           <ul class="publication-notes">
-            <li><strong>Data Preprocessing:</strong> Assisted in completing data cleaning, alignment, and spatiotemporal matching for four types of heterogeneous data, ensuring input data quality.</li>
-            <li><strong>Anomaly Detection:</strong> Participated in data annotation and rule verification for the anomaly detection module, assisting in identifying multiple types of anomalous samples based on physical constraints and statistical methods.</li>
-            <li><strong>Experiment Management:</strong> Built Git experimental management repository to unify data versioning, script environments, and parameter configurations.</li>
-            <li><strong>Data Repair:</strong> Participated in discussions on data repair solutions combining graph structure modeling and generative models, assisting in completing missing data imputation experiments based on spatial correlations between stations.</li>
-            <li><strong>Feature Selection:</strong> Assisted in designing shallow feature screening modules, exploring the combination of voting mechanisms and multi-objective optimization in key variable selection.</li>
-            <li><strong>Deep Feature Learning:</strong> Participated in experiments on multi-scale fusion strategies for Transformer+TCN deep encoders, validating the impact of different fusion approaches on prediction accuracy.</li>
+            <li>Assisted in data cleaning, alignment, and spatiotemporal matching for four types of heterogeneous data to ensure input data quality.</li>
+            <li>Participated in anomaly detection module data annotation and rule verification, assisting in multi-type anomaly sample identification based on physical constraints and statistical methods.</li>
+            <li>Built Git experimental management repository to unify data versioning, script environments, and parameter configurations.</li>
+            <li>Participated in data repair solution discussions combining graph structure modeling and generative models, assisting in missing data completion experiments based on spatial correlations between stations.</li>
+            <li>Assisted in designing shallow feature screening modules, exploring the combination of voting mechanisms and multi-objective optimization in key variable selection.</li>
+            <li>Participated in Transformer+TCN deep encoder multi-scale fusion strategy experiments, validating the impact of different fusion approaches on prediction accuracy.</li>
           </ul>
         </div>
       </details>
