@@ -120,7 +120,7 @@
       <details class="publication-abstract">
         <summary>Project Details</summary>
         <div class="details-body">
-          <p><strong>Project Summary:</strong> Participated in the full pipeline of multi-source heterogeneous wind power data processing and forecasting research, covering data cleaning and anomaly identification, experimental repository management, data repair exploration, feature screening support, and forecasting model validation.</p>
+          <p><strong>Project Summary:</strong> Participated in multi-source heterogeneous wind power data processing and forecasting research, supporting data preprocessing, experimental repository management, and related model experiments.</p>
         </div>
       </details>
     </div>
