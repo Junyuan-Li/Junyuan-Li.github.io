@@ -105,7 +105,7 @@
 
 <div class="publication-item">
   <div class="publication-figure" data-badge="NSFC">
-    <img src="static/assets/img/research/paper6.svg" alt="Wind Power Forecasting Research">
+    <img src="static/assets/img/research/paper5.svg" alt="Wind Power Forecasting Research">
   </div>
   <div class="publication-content">
     <div class="publication-title">
@@ -120,16 +120,7 @@
       <details class="publication-abstract">
         <summary>Project Details</summary>
         <div class="details-body">
-          <p><strong>Project Overview:</strong> Designed a three-stage framework of anomaly detection, data repair, and feature learning to achieve structured fusion and quality enhancement of multi-source heterogeneous spatiotemporal data.</p>
-          <p><strong>My Work:</strong></p>
-          <ul class="publication-notes">
-            <li>Assisted in data cleaning, alignment, and spatiotemporal matching for four types of heterogeneous data to ensure input data quality.</li>
-            <li>Participated in anomaly detection module data annotation and rule verification, assisting in multi-type anomaly sample identification based on physical constraints and statistical methods.</li>
-            <li>Built Git experimental management repository to unify data versioning, script environments, and parameter configurations.</li>
-            <li>Participated in data repair solution discussions combining graph structure modeling and generative models, assisting in missing data completion experiments based on spatial correlations between stations.</li>
-            <li>Assisted in designing shallow feature screening modules, exploring the combination of voting mechanisms and multi-objective optimization in key variable selection.</li>
-            <li>Participated in Transformer+TCN deep encoder multi-scale fusion strategy experiments, validating the impact of different fusion approaches on prediction accuracy.</li>
-          </ul>
+          <p><strong>Project Summary:</strong> Participated in the full pipeline of multi-source heterogeneous wind power data processing and forecasting research, covering data cleaning and anomaly identification, experimental repository management, data repair exploration, feature screening support, and Transformer+TCN multi-scale fusion validation.</p>
         </div>
       </details>
     </div>
